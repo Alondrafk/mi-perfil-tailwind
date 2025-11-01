@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html lang="es_CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página personalizada - Tailwind CSS Playground">
+    <meta name="author" content="Tu Nombre">
+    <title>Mi Página Personalizada - Tailwind CSS</title>
+    
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+   
+ <!-- Arreglo de imagen -->
+  <style>
+    /* Imagen personalizada */
+    img[alt="Imagen de Actividad Paranormal"] {
+      width: 160px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+  </style>    
+</head>
+<body>
+    
+  <header class="text-center py-10 bg-blue-100 shadow-sm">
+    <h1 id="Tarea Pàgina Personal" class="text-4xl font-bold text-blue-800 mb-2">
+      Tarea Página Personal
+    </h1>
+    <p class="text-lg font-medium">Alondra Pérez Jara</p>
+  </header>
+
+  <main class="max-w-4xl mx-auto p-6">
+
+    <section class="mb-8">
+      <p class="mb-4">
+        Estudiante de Periodismo en la Universidad de Chile, Alondra Pérez Jara ha desarrollado una trayectoria académica y profesional orientada a la comunicación interna, el marketing digital y la creación de contenido SEO.
+      </p>
+      <p class="mb-4">
+        Su formación se caracteriza por una sólida base teórica complementada con experiencias prácticas en el ámbito corporativo, especialmente en entornos altamente estructurados como el rubro minero.
+      </p>
+      <p>
+        Su interés por las nuevas tecnologías, la comunicación estratégica y la optimización de contenidos digitales la posicionan como una profesional integral.
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-4">Formación académica</h2>
+      <p class="mb-4">
+        Actualmente cursa el cuarto año de la carrera de Periodismo en la Facultad de Comunicación e Imagen de la Universidad de Chile.
+      </p>
+      <p>
+        Durante su paso por la universidad ha destacado por su interés en áreas aplicadas de la comunicación, integrando herramientas técnicas como la edición de contenido en programas de Adobe, la producción audiovisual, y el desarrollo de proyectos digitales enfocados en narrativas multimedia.
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-4">Temas de investigación e intereses académicos</h2>
+      <ol class="list-decimal list-inside space-y-1">
+        <li>Comunicación organizacional e interna</li>
+        <li>Contenidos SEO y posicionamiento en buscadores</li>
+        <li>Inteligencia artificial generativa</li>
+        <li>Marketing digital</li>
+      </ol>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-4">Experiencia profesional: Práctica en marketing digital en Metso</h2>
+      <p class="mb-4">
+        Durante su práctica profesional, realizada entre enero y marzo de 2025, Alondra se integró al equipo de Marketing Digital de 
+        <a href="https://www.metso.com/es/informacion-corporativa/acerca-de-nosotros/" target="_blank" class="text-blue-600 hover:underline">Metso</a>, 
+        una empresa multinacional especializada en soluciones para la industria minera. Bajo la supervisión del Subgerente de Marketing, 
+        <a href="https://www.linkedin.com/in/juanpablognu/?originalSubdomain=cl" target="_blank" class="text-blue-600 hover:underline">Juan Pablo Aguilar</a>, 
+        participó activamente en la planificación y ejecución de campañas internas, redacción de contenidos digitales orientados al público interno y externo, diseño de un cronograma editorial, y la creación de material audiovisual para la feria minera Expomin.
+      </p>
+      <p class="mb-4">
+        Parte de sus funciones para 
+        <a href="https://www.expomin.cl/" target="_blank" class="text-blue-600 hover:underline">Expomin</a>, también fue insertar subtítulos y traducir al español videos que ya contaban con ellos pero en inglés. 
+      </p>
+      <p class="mb-2">Aquí abajo un ejemplo:</p>
+      <div class="flex justify-center my-4">
+        <iframe width="420" height="236" src="https://www.youtube.com/embed/I94dLKLl8yU?si=01v4MUQ2OJ58SJvq" 
+          title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+          class="rounded-lg shadow-md">
+        </iframe>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-4">Intereses personales relevantes</h2>
+      <p class="mb-4">
+        Actualmente, proyecta su futuro profesional en áreas donde pueda combinar sus habilidades comunicativas con herramientas digitales avanzadas, ya sea dentro del rubro minero o en entornos corporativos que valoren la comunicación interna como eje del bienestar institucional.
+      </p>
+      <p class="mb-4">
+        Además, le entusiasma seguir profundizando en tecnologías emergentes como la inteligencia artificial generativa y su aplicación en estrategias digitales.
+      </p>
+      <p>
+        Contempla continuar su formación a través de cursos y certificaciones en marketing digital, posicionamiento web y gestión de contenidos especializados, con el objetivo de mantenerse actualizada y aportar desde un enfoque técnico y eficiente.
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-xl font-semibold bg-blue-100 p-2 rounded-md mb-4">HOBBIES</h3>
+
+      <div class="flex flex-col md:flex-row items-center gap-6">
+        <img src="https://m.media-amazon.com/images/M/MV5BZmZhYTk2MzQtMmIwMi00ODk5LWIzNWEtYzIwYmQ5ZDA3YzNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" 
+             alt="Imagen de Actividad Paranormal" 
+             class="w-40 rounded-lg shadow-md">
+
+        <div>
+          <p class="mb-2">
+            Más allá del ámbito académico y laboral, Alondra cultiva intereses personales que complementan su formación integral.
+          </p>
+          <p class="mb-2">
+            Disfruta de actividades al aire libre como subir cerros, así como de la lectura de novelas y sobre todo ver películas y series de terror.
+          </p>
+          <p>
+            Actualmente, se encuentra viendo la saga <em>“Actividad Paranormal”</em>, ya que sus amigos tienden a criticar sus gustos en el género de terror, fundamentándose en que <em>“no puedes gustar de este género sin haber visto estas clásicas”.</em>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h3 class="text-xl font-semibold bg-blue-100 p-2 rounded-md mb-4">Qué espera en su futuro cercano</h3>
+      <p class="mb-4">
+        En diciembre de este año, tiene planificado viajar a Estados Unidos por algunos meses con el objetivo de perfeccionar su nivel de inglés, lo cual considera fundamental para ampliar sus oportunidades profesionales y enriquecer su comprensión cultural.
+      </p>
+      <p>
+        Al regresar a Chile en marzo de 2026, planea retomar su actual trabajo, ahorrar recursos económicos y enfocarse durante el segundo semestre en el desarrollo de su memoria de título. Además, está en búsqueda de una pasantía que le permita profundizar en sus áreas de interés y conectar con redes profesionales del mundo de la comunicación digital.
+      </p>
+    </section>
+
+    <div class="flex justify-center gap-6 mt-8">
+      <a href="#Tarea Pàgina Personal" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition">Ir al inicio</a>
+      <a href="https://media.tenor.com/ktoEeitg7bAAAAAM/art-the-clown-terrifier.gif" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md transition">CLICK HERE</a>
+    </div>
+
+  </main>
+
+  <footer class="text-center py-6 text-sm text-gray-500 mt-10">
+    © 2025 Alondra Pérez Jara
+  </footer>
+
+    <!-- JavaScript (opcional) -->
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
+
 
